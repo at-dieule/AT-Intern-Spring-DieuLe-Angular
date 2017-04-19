@@ -1,0 +1,20 @@
+
+<h2>Information</h2>
+<table *ngIf="members[selected]">
+	<tr>
+   <td>Name: </td>
+   <td>{{members[selected].name}}</td> 
+  </tr>
+  <tr>
+    <td>Fullname: </td>
+    <td>{{members[selected].fullname}}</td>
+  </tr>
+  <tr>
+    <td>BirthDay: </td>
+    <td>{{members[selected].birthday}}</td>
+  </tr>
+  <tr>
+    <td>Team: </td>
+    <td>{{members[selected].team}}</td>
+  </tr>
+</table>

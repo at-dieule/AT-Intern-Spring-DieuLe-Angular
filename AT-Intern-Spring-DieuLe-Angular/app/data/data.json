@@ -1,0 +1,16 @@
+{
+  "members": [
+    {
+      "name": "Dieu",
+      "fullname": "Le Xuan Dieu",
+      "birthday": "1994",
+      "team": "PHP"
+    },
+    {
+      "name": "A",
+      "fullname": "Nguyen Van A",
+      "birthday": "1993",
+      "team": "Ruby"
+    }
+  ]
+}
