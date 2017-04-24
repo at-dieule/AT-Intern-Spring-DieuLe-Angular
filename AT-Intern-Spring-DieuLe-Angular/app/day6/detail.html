@@ -1,0 +1,20 @@
+
+<h2>Information</h2>
+<table *ngIf="members[selected]">
+  <tr>
+   <td>Name: </td>
+   <td>{{members[selected].name}}</td> 
+  </tr>
+  <tr>
+    <td>TEAM: </td>
+    <td>{{members[selected].team | uppercase}}</td>
+  </tr>
+  <tr>
+    <td>Joined: </td>
+    <td>{{members[selected].joined | date:'fullDate'}}</td>
+  </tr>
+   <tr>
+    <td>avatar: </td>
+    <td><img src="{{members[selected].avatar| mypipe}}" alt=""></td>
+  </tr>
+</table>
