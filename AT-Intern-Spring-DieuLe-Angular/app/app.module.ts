@@ -3,10 +3,9 @@ import { FormsModule }      from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule, JsonpModule } from '@angular/http';
 
-import { AppComponent }  from './day6/app.component';
-
-import { DetailComponent }  from './day6/detail.component';
-import { Mypipe }  from './day5/avatar.pipe';
+import  { TrainersComponent } from './service/trainer.component';
+import  { DetailComponent } from './service/detail.component';
+import  { Mypipe } from './service/mypipe.pipe';
 
 
 
@@ -17,7 +16,7 @@ import { Mypipe }  from './day5/avatar.pipe';
 			HttpModule,
 			JsonpModule
     		],
-  declarations: [AppComponent, DetailComponent, Mypipe],
-  bootstrap:    [ AppComponent]
+  declarations: [TrainersComponent, DetailComponent, Mypipe],
+  bootstrap:    [ TrainersComponent]
 })
 export class AppModule { }

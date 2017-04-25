@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <h2>List trainer</h2>
+      <table class="table table-hover">
+       <thead>
+          <tr class="success">   
+            <th>Name :</th>
+            <th>Team:</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of trainers; let i = index" class="info">  
+            <td>{{item.name}}</td>
+            <td>{{item.team}}</td>
+            <td><button class="btn btn-md btn-primary" (click)="viewDetail(i)">Show</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-4">
+      <h2>Show List</h2>
+      <detail [value]="selected"></detail>
+    </div>
+  </div>
+</div>
+
