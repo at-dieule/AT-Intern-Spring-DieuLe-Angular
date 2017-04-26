@@ -3,9 +3,9 @@ import { FormsModule }      from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule, JsonpModule } from '@angular/http';
 
-import  { TrainersComponent } from './service/trainer.component';
-import  { DetailComponent } from './service/detail.component';
-import  { Mypipe } from './service/mypipe.pipe';
+import  { TrainersComponent } from './d6/trainer.component';
+import  { DetailComponent } from './d6/detail.component';
+import  { Mypipe } from './d6/mypipe.pipe';
 
 
 
